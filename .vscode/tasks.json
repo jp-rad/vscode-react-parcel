@@ -26,6 +26,13 @@
                 "--immutable-cache",
                 "--check-cache",
             ],
+            "problemMatcher": [],
+        },
+        {
+            "label": "npm-check-updates",
+            "type": "shell",
+            "command": "yarn global add npm-check-updates && npm-check-updates -u",
+            "problemMatcher": [],
         },
     ]
 }

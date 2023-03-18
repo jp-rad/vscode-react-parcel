@@ -50,7 +50,7 @@ https://github.com/jp-rad/vscode-react-parcel.git
 [こちら - https://github.com/jp-rad/vscode-react-parcel/generate](https://github.com/jp-rad/vscode-react-parcel/generate)
 1. 作成したGitHubのリポジトリが開くので、`Settings`タブを開き、左のメニューから`Pages`を選択し、`GitHub Pages`設定画面を開きます。
 1. `Source`で、`GitHub Actions`を選びます。
-1. `GitHub Pages`の作成に失敗していますので、`Actions`タブを開き、失敗しているWorkflow(`Initial commit`)をクリックし、右上の`Re-run Jobs`ボタンから`Re-run failed jobs`コマンドを選んで、再実行します。
+1. `GitHub Pages`の作成に失敗していますので、`Actions`タブを開き、失敗している`workflow`(`'Initial commit'`)をクリックし、右上の`Re-run Jobs`ボタンから`Re-run failed jobs`コマンドを選んで、再実行します。
 1. Workflowが再実行されますので、正常に完了するのを確認します。
 
 ## クローンとVS Codeの起動
@@ -73,10 +73,10 @@ https://github.com/jp-rad/vscode-react-parcel.git
 ## ウェブアプリのデプロイ
 
 1. ソースコードを`main`ブランチにプッシュ（コミット）します。  
-`main` ブランチにソースコードをプッシュ（コミット）すると `GitHub Actions workflow` によって、`GitHub Pages`へデプロイされます。
+`main` ブランチにソースコードをプッシュ（コミット）すると `GitHub Actions` によって、`GitHub Pages`へデプロイされます。
 1. GitHubにログインします。
 1. GitHubのリポジトリを開きます。
-1. `Actions`タブを開き、最新の`workflows`が成功していることを確認します。
+1. `Actions`タブを開き、最新の`workflow`が成功していることを確認します。
 1. `Settings`タブを開き、左のメニューから`Pages`を選択し、`GitHub Pages`設定画面を開きます。
 1. `Your site is live at`の後に表示されているのが、ウェブアプリの`URL`です。
 1. `URL`リンク、もしくは、`Visit site`ボタンで、ウェブアプリを開きます。
