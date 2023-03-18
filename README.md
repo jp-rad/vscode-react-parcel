@@ -6,7 +6,7 @@ Running React App on [GitHub Pages](https://jp-rad.github.io/vscode-react-parcel
 ``` App.tsx
 // App.tsx
 
-import Logo from './Logo';  // logo.svg ==> Log0.tsx
+import Logo from './Logo';  // logo.svg ==> Logo.tsx
 //import './App.css'; // ==> ../index.html
 
 function App() {
