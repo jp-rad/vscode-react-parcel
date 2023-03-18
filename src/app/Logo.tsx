@@ -1,11 +1,15 @@
 import React, { FC } from 'react'
 
 type Props = {
-    className?: string
+    className?: string;
+}
+
+type OptionSvgAtr = {
+    className?: string;
 }
 
 const Logo: FC<Props> = (props: Props) => {
-    const optionSvgAtr = {};
+    const optionSvgAtr:OptionSvgAtr = {};
     if (props.className) {
         optionSvgAtr['className'] = props.className;
     }
